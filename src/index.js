@@ -1,4 +1,4 @@
-/*Acá va tu código*/
+
 
 //Mostrar Resultado en Index
 const btnSave = document.getElementById('btnCodifica');
@@ -9,7 +9,7 @@ let myStringCipher=window.cipher.encode(myString,offset1);
 document.getElementById('resultado').value =myStringCipher;
  })
 
- 
+
 //Mostrar Resultado en Index
 const btnSave1 = document.getElementById('btnDeco');
 btnSave1.addEventListener('click', () => {

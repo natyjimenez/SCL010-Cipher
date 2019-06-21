@@ -1,10 +1,11 @@
-/* Acá va tu código */
+
 
 html
- {text-align: center;
- }
+{text-align: center;
+}
 
-h1{ 
+h1
+{
 font-family: monospace;
 font-weight: 600;
 font-size: 40px;
@@ -19,7 +20,9 @@ border-width: 1.5px;
 border-style: shadow;
 border-radius:4px;
 }
-body{
+
+body
+{
   background-image: url(
     https://wallpaperplay.com/walls/full/3/7/a/37709.jpg)
 }
@@ -42,7 +45,9 @@ border-width: 1.5px;
 border-style: shadow;
 border-radius:4px;
 }
-#btnCodificar:hover {
+
+#btnCodificar:hover
+{
 background-color:#047BF7;
 }
 
@@ -64,7 +69,9 @@ border-width: 1.5px;
 border-style: shadow;
 border-radius:4px;
 }
-#btnDeco:hover {
+
+#btnDeco:hover
+{
 background-color:#047BF7;
 }
 
@@ -104,7 +111,8 @@ font-family: Comic Sans MS, cursive, sans-serif;
 
 
 
-#inpOffset{
+#inpOffset
+{
 text-decoration:none;
 font-weight: 600;
 font-size: 12px;
@@ -120,13 +128,12 @@ border-style: shadow;
 border-radius: 2px;
 }
 
-p{
+p
+{
 font-family: monospace ;
 font-weight: ;
 font-size: 15px;
 color:#ffffff;
-
 padding-left:140px;
 padding-right:140px;
-  
 }
