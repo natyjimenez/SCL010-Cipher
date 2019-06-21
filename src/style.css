@@ -1,1 +1,132 @@
 /* Acá va tu código */
+
+html
+ {text-align: center;
+ }
+
+h1{ 
+font-family: monospace;
+font-weight: 600;
+font-size: 40px;
+color:#ffffff;
+padding-top:15px;
+padding-bottom:15px;
+padding-left:140px;
+padding-right:140px;
+background-color:#05B763;
+border-color: #FFFFFF;
+border-width: 1.5px;
+border-style: shadow;
+border-radius:4px;
+}
+body{
+  background-image: url(
+    https://wallpaperplay.com/walls/full/3/7/a/37709.jpg)
+}
+
+
+#btnCodifica
+{
+text-decoration:none;
+font-family: monospace ;
+font-weight: 600;
+font-size: 25px;
+color:#ffffff;
+padding-top:15px;
+padding-bottom:15px;
+padding-left:140px;
+padding-right:140px;
+background-color:#FF7F00;
+border-color: #FFFFFF;
+border-width: 1.5px;
+border-style: shadow;
+border-radius:4px;
+}
+#btnCodificar:hover {
+background-color:#047BF7;
+}
+
+
+#btnDeco
+{
+text-decoration:none;
+font-family: monospace  ;
+font-weight: 600 ;
+font-size: 25px;
+color:#ffffff;
+padding-top:15px;
+padding-bottom:15px;
+padding-left:120px;
+padding-right:120px;
+background-color:#F10088;
+border-color: #FFFFFF;
+border-width: 1.5px;
+border-style: shadow;
+border-radius:4px;
+}
+#btnDeco:hover {
+background-color:#047BF7;
+}
+
+#textoIngresado
+{
+text-decoration:none;
+font-size: 12px;
+color:#383633;
+padding-top:6px;
+padding-bottom:6px;
+padding-left:15px;
+padding-right:15px;
+background-color:#FFFFFF;
+border-color: #2FA4FD;
+border-width: 3px;
+border-style: shadow;
+border-radius: 5px;
+font-family: Comic Sans MS, cursive, sans-serif;
+}
+
+#resultado
+{
+text-decoration:none;
+font-size: 12px;
+color:#383633;
+padding-top:6px;
+padding-bottom:6px;
+padding-left:15px;
+padding-right:15px;
+background-color:#FFFFFF;
+border-color: #2FA4FD;
+border-width: 3px;
+border-style: shadow;
+border-radius:5px;
+font-family: Comic Sans MS, cursive, sans-serif;
+}
+
+
+
+#inpOffset{
+text-decoration:none;
+font-weight: 600;
+font-size: 12px;
+color:#000000;
+padding-top:10px;
+padding-bottom:10px;
+padding-left:40px;
+padding-right:1px;
+background-color:#FFFFFF;
+border-color: #d8d8d8;
+border-width: 1px;
+border-style: shadow;
+border-radius: 2px;
+}
+
+p{
+font-family: monospace ;
+font-weight: ;
+font-size: 15px;
+color:#ffffff;
+
+padding-left:140px;
+padding-right:140px;
+  
+}
