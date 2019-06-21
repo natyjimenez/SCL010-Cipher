@@ -1,44 +1,37 @@
 <!DOCTYPE html>
 <html>
   <head>
-    <meta charset="utf-8">
+    <meta charset='utf-8'>
     <title>Caesar Cipher</title>
-    <link rel="stylesheet" href="style.css" />
+    <link rel='stylesheet' href='style.css' />
   </head>
 
   <body>
-
-      <div id="root">
+      <div id='root'>
       <h1>CodeApp</h1>
-  
-      <p>Estás en clases y quieres contarle una copucha a un amigx</br>
-         pero . . .  te  preocupa  que  alguien  pueda  leerlo ? ? ?</p> 
-      <p>ENCRIPTALO!!!</p> 
-      <p>Escribe tu mensaje y dale un nivel de seguridad</br>
-         luego dale a quien envíes el mensaje</br> 
-         para que pueda desencriptarlo</p>  
-      <p>y LISTO!!!</p> 
 
-      <p><textarea id='textoIngresado' rows='10' cols='50' placeholder='INGRESA TU TEXTO'></textarea></p>   
-      
+      <p>Estás en clases y quieres contarle una copucha a un amigx</br>
+         pero . . .  te  preocupa  que  alguien  pueda  leerlo ? ? ?</p>
+      <p>ENCRIPTALO!!!</p>
+      <p>Escribe tu mensaje y dale un nivel de seguridad</br>
+         luego dale a quien envíes el mensaje</br>
+         para que pueda desencriptarlo</p>
+      <p>y LISTO!!!</p>
+
+      <p><textarea id='textoIngresado' rows='10' cols='50' placeholder='INGRESA TU TEXTO'></textarea></p>
+
       <p>Ingresa un nivel de seguridad entre 1 y 25 </br>
          para encriptar tu mensaje</br>
-        (25 es el nivel más alto y 1 el más débil)</p>
+         (25 es el nivel más alto y 1 el más débil)</p>
       <input type='number' id='inpOffset'   name='os' min='1' max='25'  placeholder= 'Nivel'>
-            
+
       <p><button id='btnCodifica'>Encriptar</button></p>
       <p><button id='btnDeco'>Desencriptar</button></p>
-     
-      <p><textarea id = 'resultado' rows='10' cols='50' placeholder= 'RESULTADO TEXTO CODIFICADO/DECODIFICADO'></textarea></p>
 
-    <script type='text/javascript' src='index.js'></script>
+      <p><textarea id = 'resultado' rows='10' cols='50' placeholder= 'RESULTADO TEXTO CODIFICADO/DECODIFICADO'></textarea></p>
 
     </div>
     <script src="cipher.js"></script>
     <script src="index.js"></script>
   </body>
 </html>
-
-
-
-
