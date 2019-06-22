@@ -15,6 +15,6 @@ const btnSave1 = document.getElementById('btnDeco');
 btnSave1.addEventListener('click', () => {
 let myString1 = document.getElementById('textoIngresado').value;
 let offset2 = parseInt(document.getElementById('inpOffset').value);
-let myStringDecipher=window.cipher.decode(myString1,offset2);
-document.getElementById('resultado').value =myStringDecipher;
+let myStringDec=window.cipher.decode(myString1,offset2);
+document.getElementById('resultado').value =myStringDec;
  })

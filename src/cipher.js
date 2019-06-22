@@ -24,23 +24,23 @@ window.cipher = {
   
     decode: (myString1, offset2) => {
   
-      let bigLetter1 = myString1.toUpperCase(); //Mayúsculas 
-      let myStringDecipher1 = ''; // almacena string Cifrado 
-      for (let i = 0 ; i < bigLetter1.length ; i++){ // recorre el mensaje     
-      let numberLetter1= bigLetter1.charCodeAt(i); // numero de letra en codigo ASCII   
-      if (numberLetter1 >= 65 && numberLetter1 <= 90) { // letras mayúsculas en ASCII    
-      let decipherFormula1 = ( numberLetter1 + 65 - offset2) % 26 + 65;// formula de Cifrado Cesar       
-      let newLetter1 =  String.fromCharCode(decipherFormula1);// Valor de la letra cifrada   
-      myStringDecipher1 +=newLetter1;// Formar string cifrado 
-         }
-      else if(numberLetter1 === 32){ // Retorna el valor de la cadena cifrada  
-      myStringDecipher1 += ' ';// Añadir espacio       
-         }
-      else {// Detener si no es Letra
-      break;      
-         }
-         }
-      return myStringDecipher1;// Resultado String cifrado   
+      let bigLet = myString1.toUpperCase();//Mayúsculas   
+      let myStringDec = ''; // almacena string Cifrado 
+      for (let i = 0 ; i < bigLet.length ; i++){ // recorre el mensaje   
+      let numberLet= bigLet.charCodeAt(i);// numero de letra en codigo ASCII   
+      if (numberLet >= 65 && numberLet <= 90) { // letras mayúsculas en ASCII  
+      let decFormula = ( numberLet + 65 - offset2) % 26 + 65; // formula de Cifrado Cesar   
+      let newLet =  String.fromCharCode(decFormula);// Valor de la letra cifrada   
+      myStringDec +=newLet;// Formar string cifrado 
+        }
+      else if(numberLet === 32){ // Retorna el valor de la cadena cifrada 
+      myStringDec += ' ';// Añadir espacio       
+        }
+      else { // Detener si no es Letra
+           break;      
+        }
+        }
+      return myStringDec;// Resultado String cifrado  
        
       
   }
