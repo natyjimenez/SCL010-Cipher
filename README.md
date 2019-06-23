@@ -71,9 +71,9 @@ Natalia Jiménez.
 
 ## Agradecimientos🎁
 
-- Squad #3
+- Squad #3 ❤️
 - Lupita Agustina 🐾
-- Coaches Domi y Marcia  
+- Coaches 👩‍🚀  
 
 
 
