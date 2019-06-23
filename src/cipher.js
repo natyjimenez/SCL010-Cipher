@@ -2,12 +2,12 @@ window.cipher = {
   
      encode: (myString, offset1) => {
   
-      let bigLetter = myString.toUpperCase();//Mayúsculas   
-      let myStringCipher = ''; // almacena string Cifrado 
-      for (let i = 0 ; i < bigLetter.length ; i++){ // recorre el mensaje   
-      let numberLetter= bigLetter.charCodeAt(i);// numero de letra en codigo ASCII   
-      if (numberLetter >= 65 && numberLetter <= 90) { // letras mayúsculas en ASCII  
-      let cipherFormula = ( numberLetter - 65 + offset1) % 26 + 65; // formula de Cifrado Cesar   
+      let bigLetter = myString.toUpperCase();// Mayúsculas   
+      let myStringCipher = ''; // Almacena string Cifrado 
+      for (let i = 0 ; i < bigLetter.length ; i++){ // Recorre el mensaje   
+      let numberLetter= bigLetter.charCodeAt(i);// Número de letra en codigo ASCII   
+      if (numberLetter >= 65 && numberLetter <= 90) { // Letras mayúsculas en ASCII  
+      let cipherFormula = ( numberLetter - 65 + offset1) % 26 + 65; // Fórmula de Cifrado Cesar   
       let newLetter =  String.fromCharCode(cipherFormula);// Valor de la letra cifrada   
       myStringCipher +=newLetter;// Formar string cifrado 
         }
@@ -19,19 +19,18 @@ window.cipher = {
         }
         }
       return myStringCipher;// Resultado String cifrado   
-       
       },
   
     decode: (myString1, offset2) => {
   
-      let bigLet = myString1.toUpperCase();//Mayúsculas   
-      let myStringDec = ''; // almacena string Cifrado 
-      for (let i = 0 ; i < bigLet.length ; i++){ // recorre el mensaje   
-      let numberLet= bigLet.charCodeAt(i);// numero de letra en codigo ASCII   
-      if (numberLet >= 65 && numberLet <= 90) { // letras mayúsculas en ASCII  
-      let decFormula = ( numberLet + 65 - offset2) % 26 + 65; // formula de Cifrado Cesar   
-      let newLet =  String.fromCharCode(decFormula);// Valor de la letra cifrada   
-      myStringDec +=newLet;// Formar string cifrado 
+      let bigLet = myString1.toUpperCase();// Mayúsculas   
+      let myStringDec = ''; // Almacena string descifrado 
+      for (let i = 0 ; i < bigLet.length ; i++){ // Recorre el mensaje   
+      let numberLet= bigLet.charCodeAt(i);// Número de letra en codigo ASCII   
+      if (numberLet >= 65 && numberLet <= 90) { // Letras mayúsculas en ASCII  
+      let decFormula = ( numberLet + 65 - offset2) % 26 + 65; // Fórmula de Cifrado Cesar   
+      let newLet =  String.fromCharCode(decFormula);// Valor de la letra descifrada   
+      myStringDec +=newLet;// Formar string descifrado 
         }
       else if(numberLet === 32){ // Retorna el valor de la cadena cifrada 
       myStringDec += ' ';// Añadir espacio       
@@ -40,8 +39,6 @@ window.cipher = {
            break;      
         }
         }
-      return myStringDec;// Resultado String cifrado  
-       
-      
+      return myStringDec;// Resultado String descifrado        
   }
 };

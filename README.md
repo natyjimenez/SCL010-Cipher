@@ -7,7 +7,7 @@
   - Resolución de Problemas
 - Proceso de Diseño
   - Prototipado
-- Funcionalidad
+  - Funcionalidad
 - Pre-requisitos
 - Instalación
 - Herramientas de desarrollo
@@ -33,7 +33,7 @@ Esta App está dirigida a adolescentes y jóvenes en etapa escolar.
 
 ### Objetivos de los usuarios
 
-Esta App fue desarrollada con fines recreativos, y pensando en la nostalgia escolar, en la comunicación entre compañeros(as) mediante el uso de “papelitos” y/o mensajes de texto, los cuales podían ser vistos o interceptados por otro de nuestros pares, profesores o padres.
+Esta App fue desarrollada con fines recreativos, y pensando en la nostalgia escolar, en la comunicación entre compañeros(as) mediante el uso de “papelitos” y/o mensajes de texto, los cuales podían ser vistos o interceptados nuestros pares, profesores o padres.
 
 ### Resolución de problemas que propone este producto
 
@@ -42,13 +42,52 @@ El mensaje solo podrá ser decodificado por la persona que el emisor estime, ya 
 
 ## Proceso de Diseño🖌️
 
+### Prototipado
+
+#### Flujo Preliminar
+
+En la imagen siguiente se muestra el primer diseño de flujo.
+Este muestra una página de inicio en común donde se entregan dos opciones que llevan a páginas diferentes.
+Para volver a elegir una de las opciones, se debe volver al inicio.
+
+![flujo1](https://i.ibb.co/7rLJMBN/flujo1.jpg)
+
+
+#### Prototipo inicial
+
+En la imagen siguiente se muestra el diseño de un prototipo de la interfaz siguiendo la diagramación de flujo de la imagen anterior.
+Este diseño considera 3 pantallas diferentes, una de inicio, una para la función codificar y otra para decodificar.
+
+![prototipo1](https://i.ibb.co/x3vdRCt/PROTOTIPO1.jpg)
+
+#### Prototipo Corrección 
+
+La siguiente imagen muestra una correción al prototipo de la interfaz anterior.
+En esta versión se agrega un casillero para el ingreso de un valor "offset".
+
+![prototipo2](https://i.ibb.co/wpbd6y6/PROTOTIPO2.jpg)
+
+#### Flujo final
+
+En la siguiente imagen se muestra el desarrollo de flujo final.
+Se opta por un flujo lineal, pensando en ser desarrollado en una sola pantalla.
+
+![flujofinal](https://i.ibb.co/xgLTL6n/flujo2.jpg)
+
+#### Prototipo final
+
+En la versión final se opta por el desarrollo de una sola pantalla en la cual se entregan las opciones de codificar y/o decodificar. Y la implementaciòn de los elementos offset, input y output de texto, para uso común.
+
+![prototipofinal](https://i.ibb.co/HhxbVHX/PROTOTIPO3.jpg)
+
+
 ### Funcionalidad
 
 La Interfaz de la App es sencilla e intuitiva en su funcionamiento.
 Cuenta con un cuadro que permite el ingreso del texto para codificar y/o decodificar.
 Un casillero que permite ingresar un número de desplazamiento (“offset”).
-Un botón para activar la función CODIFICAR, que cifra el mensaje.
-Un botón para activar la función DECODIFICAR, que descifra el mensaje.
+Un botón para activar la función ENCRIPTAR, que cifra el mensaje.
+Un botón para activar la función DESENCRIPTAR, que descifra el mensaje.
 Un segundo cuadro de texto donde se visualiza el resultado de la acción solicitada (codificar o decodificar).
 
 
@@ -84,15 +123,3 @@ Natalia Jiménez.
 
 
 
-
-Cifrar significa codificar. El [cifrado César](https://en.wikipedia.org/wiki/Caesar_cipher).
-
-![caeser-cipher](https://upload.wikimedia.org/wikipedia/commons/thumb/2/2b/Caesar3.svg/2000px-Caesar3.svg.png)
-
-* `README.md`: debe explicar cómo descargar, instalar y ejecutar la aplicación
-  así como una introducción a la aplicación, su funcionalidad y decisiones de
-  diseño que tomaron.
-
-Herramientas:
-- [GitHub y GitHub Pages](https://guides.github.com/)
-- [Guía de Scrum](https://www.scrumguides.org/docs/scrumguide/v1/scrum-guide-es.pdf): solamente para comenzar a entender cómo organizar tu trabajo.
