@@ -1,4 +1,4 @@
-# “SocialCipherApp”
+# “SocialCipherApp”👋
 
 - Introducción
 - Descripción del Proyecto
@@ -15,7 +15,7 @@
 - Agradecimientos
      
 
-## Introducción
+## Introducción👩‍🏫
 
 “SocialCipherApp”, es un aplicación web que permite codificar y decodificar textos, ya sea una palabra, oraciones o frases, mediante la implementación del “Cifrado Cesar”, técnica de cifrado usada por el emperador romano Julio César para enviar órdenes secretas a sus generales en los campos de batalla.
 Es un tipo de cifrado por sustitución, es decir que cada letra del texto original es reemplazada por otra que se encuentra un número fijo de posiciones (desplazamiento) más adelante en el mismo alfabeto.
@@ -25,24 +25,24 @@ Por ejemplo, si usamos un desplazamiento (offset) de 3 posiciones:
 - Alfabeto sin cifrar: A B C D E F G H I J K L M N O P Q R S T U V W X Y Z
 - Alfabeto cifrado: D E F G H I J K L M N O P Q R S T U V W X Y Z A B C
 
-## Descripción del proyecto
+## Descripción del proyecto🧐
 
-#### Usuarios de producto o Público Objetivo
+### Usuarios de producto o Público Objetivo
 
 Esta App está dirigida a adolescentes y jóvenes en etapa escolar. 
 
-#### Objetivos de los usuarios
+### Objetivos de los usuarios
 
 Esta App fue desarrollada con fines recreativos, y pensando en la nostalgia escolar, en la comunicación entre compañeros(as) mediante el uso de “papelitos” y/o mensajes de texto, los cuales podían ser vistos o interceptados por otro de nuestros pares, profesores o padres.
 
-#### Resolución de problemas que propone este producto
+### Resolución de problemas que propone este producto
 
 Esta app proporciona al usuario la alternativa de escribir un mensaje privado para una segunda persona, ya que no puede ser entendido a simple vista por otra persona, y no puede ser descifrado por alguien que no conozca el mecanismo de encriptamiento. 
 El mensaje solo podrá ser decodificado por la persona que el emisor estime, ya que el receptor aparte de tener el mensaje (codificado) deberá estar en conocimiento del número de desplazamiento u offset, que cumplirá a su vez la función de código de encriptamiento.
 
-## Proceso de Diseño
+## Proceso de Diseño🖌️
 
-#### Funcionalidad
+### Funcionalidad
 
 La Interfaz de la App es sencilla e intuitiva en su funcionamiento.
 Cuenta con un cuadro que permite el ingreso del texto para codificar y/o decodificar.
@@ -69,11 +69,12 @@ Microsoft Visual Studio.
 
 Natalia Jiménez.
 
-## Agradecimientos##🎁
+## Agradecimientos🎁
 
-Squad #3
-Coaches Domi y Marcia  
-Lupita Agustina
+- Squad #3
+- Lupita Agustina 🐾
+- Coaches Domi y Marcia  
+
 
 
 
