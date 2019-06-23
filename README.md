@@ -83,18 +83,18 @@ En la versión final se opta por el desarrollo de una sola pantalla en la cual s
 
 ### Funcionalidad
 
-La Interfaz de la App es sencilla e intuitiva en su funcionamiento.
-Cuenta con un cuadro que permite el ingreso del texto para codificar y/o decodificar.
-Un casillero que permite ingresar un número de desplazamiento (“offset”).
-Un botón para activar la función ENCRIPTAR, que cifra el mensaje.
-Un botón para activar la función DESENCRIPTAR, que descifra el mensaje.
-Un segundo cuadro de texto donde se visualiza el resultado de la acción solicitada (codificar o decodificar).
+- La Interfaz de la App es sencilla e intuitiva en su funcionamiento.
+- Cuenta con un cuadro que permite el ingreso del texto para codificar y/o decodificar.
+- Un casillero que permite ingresar un número de desplazamiento (“offset”).
+- Un botón para activar la función ENCRIPTAR, que cifra el mensaje.
+- Un botón para activar la función DESENCRIPTAR, que descifra el mensaje.
+- Un segundo cuadro de texto donde se visualiza el resultado de la acción solicitada (codificar o decodificar).
 
 
 ## Pre-requisitos📋
 
-Navegador Web.
-Acceso a Internet.
+- Navegador Web.
+- Acceso a Internet.
 
 ## Instalación🔧
 
